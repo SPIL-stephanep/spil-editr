@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="/vendors/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/vendors/editr/editr/editr.css">
+    </head>
+    <body>
+
+        <div class="editr" data-item="load-api" data-files-html="loadapi.html" data-files-css="" data-files-js="test.js;index.js"></div>
+
+        <script src="/vendors/jquery/dist/jquery.min.js"></script>
+        <script src="/vendors/ace/build/src/ace.js"></script>
+        <script src="/vendors/ace/build/src/ext-emmet.js"></script>
+        <script src="/vendors/editr/editr/libs/ext.emmet.js"></script>
+        <script src="/vendors/editr/editr/editr.js"></script>
+
+        <script>
+            $('.editr').each(function() {
+                new Editr({
+                    el: this
+                });
+            });
+        </script>
+    </body>
+</html>
