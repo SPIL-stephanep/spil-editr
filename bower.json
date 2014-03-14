@@ -1,10 +1,10 @@
 {
   "name": "editr",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "authors": [
     "Stephane P. Pericat <stephane.pericat@spilgames.com>"
   ],
-  "license": "MIT",
+  "license": "2014, SpilGames",
   "ignore": [
     "**/.*",
     "node_modules",

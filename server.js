@@ -8,3 +8,5 @@ app.get('/', function(req, res) {
 });
 
 app.listen(8383);
+
+console.log('JS editor started on http://localhost:8383/');
